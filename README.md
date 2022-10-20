@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# Pipeline status badge: 
+![](https://github.com/alialaa/github-actions-course-react/workflows/CI/badge.svg?branch=develop&event=push)
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
