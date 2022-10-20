@@ -1,5 +1,5 @@
 # Pipeline status badge: 
-![](https://github.com/alialaa/github-actions-course-react/workflows/CI/badge.svg?branch=develop&event=push)
+![](https://github.com/jay-rodriguez-bb/wf-react/workflows/CI/badge.svg?branch=develop&event=push)
 
 ## Getting Started with Create React App
 
