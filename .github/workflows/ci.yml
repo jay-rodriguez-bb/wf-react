@@ -41,6 +41,11 @@ jobs:
           name: build
           path: build
       #  uses: actions/download-artifact
+      - name: Create a Release
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: npx semantic-release
+        env: 
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Deploy to Staging
         if: github.event_name == 'push'
         run: npx surge --project ./build --domain great-form-thishisefwr.surge.sh
